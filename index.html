@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src='./src/main.js' async></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <title>Subcription Account</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="title">Add your subscribing items!</div>
+    <div class="selectorContainer">
+      <select name="selectableList" id="itemSelect">
+        <option value="Custom">Custom</option>
+        <optgroup label="Netflix">
+          <option value="Netflix Basic">Basic</option>
+          <option value="Netflix Standard">Standard</option>
+          <option value="Netflix Premium">Premium</option>
+        </optgroup>
+        <optgroup label="Watcha">
+          <option value="Watcha Basic">Basic</option>
+          <option value="Watcha Premium">Premium</option>
+        </optgroup>
+        <optgroup label="Spotify">
+          <option value="Spotify Solo">Solo</option>
+          <option value="Spotify Duo">Duo</option>
+        </optgroup>
+        <optgroup label="AppleMusic">
+          <option value="AppleMusic Individual">Individual</option>
+          <option value="AppleMusic Family">Family</option>
+        </optgroup>
+        <optgroup label="iCloud">
+          <option value="iCloud 50GB">50GB</option>
+          <option value="iCloud 200GB">200GB</option>
+          <option value="iCloud 2TB">2TB</option>
+        </optgroup>
+        <option value="Youtube default">Youtube Premium</option>
+        <option value="Melon default">Melon</option>
+        <option value="Bugs default">Bugs</option>
+        <option value="Flow default">Flow</option>
+        <option value="Coupang default">Coupang Rocket Wow</option>
+      </select>
+      <input type="text" class="name" placeholder="name">
+      <input type="text" class="price" placeholder="price">
+      <button class="addBtn">Add</button>
+    </div>
+  </nav>
+  <section class="main">
+    <ul class="itemList">
+    </ul>
+    <div class="total">
+      <span class="totalDesc">Total</span>
+      <span class="totalPrice">0</span>
+    </div>
+    <button class="reset">Reset All</button>
+  </section>
+  <footer>
+    <div class="copyright">Code by mxxnN6ixpence</div>
+    <a class="githubLink" href="https://github.com/moonn6pence"><i class="fab fa-github"></i></a>
+  </footer>
+</body>
+</html>
